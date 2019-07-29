@@ -140,7 +140,7 @@
           <stringProp name="filename"></stringProp>
         </ResultCollector>
         <hashTree/>
-        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Help messages" enabled="false">
+        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Help messages" enabled="true">
           <stringProp name="TestPlan.comments">This will just test the help messages</stringProp>
         </GenericController>
         <hashTree>
@@ -598,7 +598,7 @@
             <hashTree/>
           </hashTree>
         </hashTree>
-        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Connection Options" enabled="false"/>
+        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Connection Options" enabled="true"/>
         <hashTree>
           <SystemSampler guiclass="SystemSamplerGui" testclass="SystemSampler" testname="Account main" enabled="true">
             <boolProp name="SystemSampler.checkReturnCode">false</boolProp>
@@ -672,7 +672,7 @@
           </SystemSampler>
           <hashTree/>
         </hashTree>
-        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="mb" enabled="false"/>
+        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="mb" enabled="true"/>
         <hashTree>
           <SystemSampler guiclass="SystemSamplerGui" testclass="SystemSampler" testname="TC 9 - Make Bucket" enabled="true">
             <boolProp name="SystemSampler.checkReturnCode">false</boolProp>
@@ -1240,7 +1240,7 @@
           </SystemSampler>
           <hashTree/>
         </hashTree>
-        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="ls" enabled="false"/>
+        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="ls" enabled="true"/>
         <hashTree>
           <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments">
@@ -1837,7 +1837,7 @@
             <hashTree/>
           </hashTree>
         </hashTree>
-        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="rb" enabled="false"/>
+        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="rb" enabled="true"/>
         <hashTree>
           <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments">
@@ -2270,7 +2270,7 @@
             <hashTree/>
           </hashTree>
         </hashTree>
-        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="rm" enabled="false">
+        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="rm" enabled="true">
           <stringProp name="TestPlan.comments">Removes files
 </stringProp>
         </GenericController>
@@ -2572,7 +2572,7 @@
           </SystemSampler>
           <hashTree/>
         </hashTree>
-        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="cp" enabled="false"/>
+        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="cp" enabled="true"/>
         <hashTree>
           <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments">
@@ -3589,7 +3589,7 @@ ${copyPath}</stringProp>
               <hashTree/>
             </hashTree>
           </hashTree>
-          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="TC 43 - Invalid bucket" enabled="false"/>
+          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="TC 43 - Invalid bucket" enabled="true"/>
           <hashTree>
             <SystemSampler guiclass="SystemSamplerGui" testclass="SystemSampler" testname="TC 43- Invalid Bucket name" enabled="true">
               <boolProp name="SystemSampler.checkReturnCode">false</boolProp>
@@ -3641,7 +3641,7 @@ ${copyPath}</stringProp>
               <hashTree/>
             </hashTree>
           </hashTree>
-          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="TC 44 - Given a bucket name" enabled="false"/>
+          <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="TC 44 - Given a bucket name" enabled="true"/>
           <hashTree>
             <SystemSampler guiclass="SystemSamplerGui" testclass="SystemSampler" testname="TC 43-Given a bucket name" enabled="true">
               <boolProp name="SystemSampler.checkReturnCode">false</boolProp>
@@ -3695,7 +3695,7 @@ ${copyPath}</stringProp>
             </hashTree>
           </hashTree>
         </hashTree>
-        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="info" enabled="false"/>
+        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="info" enabled="true"/>
         <hashTree>
           <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
             <collectionProp name="Arguments.arguments">
@@ -3813,7 +3813,7 @@ ${copyPath}</stringProp>
             </SystemSampler>
             <hashTree/>
           </hashTree>
-          <SystemSampler guiclass="SystemSamplerGui" testclass="SystemSampler" testname="TC 28 - info Folder Valid" enabled="true">
+          <SystemSampler guiclass="SystemSamplerGui" testclass="SystemSampler" testname="TC 45 - info Folder Valid" enabled="true">
             <boolProp name="SystemSampler.checkReturnCode">false</boolProp>
             <stringProp name="SystemSampler.expectedReturnCode">0</stringProp>
             <stringProp name="SystemSampler.command">/Users/DouglasAnderson/test/node-manta/bin/mbucket</stringProp>
@@ -3867,7 +3867,7 @@ ${copyPath}</stringProp>
             </ResponseAssertion>
             <hashTree/>
           </hashTree>
-          <SystemSampler guiclass="SystemSamplerGui" testclass="SystemSampler" testname="TC 28 - info Folder invalid non-existant" enabled="true">
+          <SystemSampler guiclass="SystemSamplerGui" testclass="SystemSampler" testname="TC 46- info Folder invalid non-existant" enabled="true">
             <boolProp name="SystemSampler.checkReturnCode">false</boolProp>
             <stringProp name="SystemSampler.expectedReturnCode">0</stringProp>
             <stringProp name="SystemSampler.command">/Users/DouglasAnderson/test/node-manta/bin/mbucket</stringProp>
@@ -3924,7 +3924,7 @@ ${copyPath}</stringProp>
             </ResponseAssertion>
             <hashTree/>
           </hashTree>
-          <SystemSampler guiclass="SystemSamplerGui" testclass="SystemSampler" testname="TC 28 - info object valid" enabled="true">
+          <SystemSampler guiclass="SystemSamplerGui" testclass="SystemSampler" testname="TC 47 - info object valid" enabled="true">
             <boolProp name="SystemSampler.checkReturnCode">false</boolProp>
             <stringProp name="SystemSampler.expectedReturnCode">0</stringProp>
             <stringProp name="SystemSampler.command">/Users/DouglasAnderson/test/node-manta/bin/mbucket</stringProp>
@@ -3978,7 +3978,7 @@ ${copyPath}</stringProp>
             </ResponseAssertion>
             <hashTree/>
           </hashTree>
-          <SystemSampler guiclass="SystemSamplerGui" testclass="SystemSampler" testname="TC 28 - info object non-existent" enabled="true">
+          <SystemSampler guiclass="SystemSamplerGui" testclass="SystemSampler" testname="TC 48 - info object non-existent" enabled="true">
             <boolProp name="SystemSampler.checkReturnCode">false</boolProp>
             <stringProp name="SystemSampler.expectedReturnCode">0</stringProp>
             <stringProp name="SystemSampler.command">/Users/DouglasAnderson/test/node-manta/bin/mbucket</stringProp>
@@ -4035,7 +4035,7 @@ ${copyPath}</stringProp>
             </ResponseAssertion>
             <hashTree/>
           </hashTree>
-          <SystemSampler guiclass="SystemSamplerGui" testclass="SystemSampler" testname="TC 28 - info Folder invalid" enabled="true">
+          <SystemSampler guiclass="SystemSamplerGui" testclass="SystemSampler" testname="TC 49 - info Folder invalid" enabled="true">
             <boolProp name="SystemSampler.checkReturnCode">false</boolProp>
             <stringProp name="SystemSampler.expectedReturnCode">0</stringProp>
             <stringProp name="SystemSampler.command">/Users/DouglasAnderson/test/node-manta/bin/mbucket</stringProp>
