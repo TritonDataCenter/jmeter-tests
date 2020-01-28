@@ -15,6 +15,7 @@ pipeline {
         
         stage('jmeter-tests') {
             steps {
+				sh "jmeter -p buckets.properties" 
                 catchError {
                     build(job: 'nightly-jmeter-tests',
                           parameters:[string(name: 'TARGET_RIG', value: 'nightly-1'),
